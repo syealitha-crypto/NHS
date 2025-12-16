@@ -103,7 +103,7 @@ public class MainFrame extends JFrame {
 
         tabbedPane.addTab("Staff",
                 ImageUtil.loadScaledImage("staff_icon.png", 24, 24),
-                new JPanel(), "Manage staff");
+                new StaffPanel(), "Manage staff");
 
         add(tabbedPane, BorderLayout.CENTER);
     }
