@@ -91,7 +91,7 @@ public class MainFrame extends JFrame {
 
         tabbedPane.addTab("Appointments",
                 ImageUtil.loadScaledImage("appointment_icon.png", 24, 24),
-                new JPanel(), "Manage appointments");
+                new AppointmentPanel(), "Manage appointments");
 
         tabbedPane.addTab("Prescriptions",
                 ImageUtil.loadScaledImage("prescription_icon.png", 24, 24),
