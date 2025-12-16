@@ -83,7 +83,7 @@ public class MainFrame extends JFrame {
 
         tabbedPane.addTab("Clinicians",
                 ImageUtil.loadScaledImage("doctor_icon.png", 24, 24),
-                new JPanel(), "Manage clinicians");
+                new ClinicianPanel(), "Manage clinicians");
 
         tabbedPane.addTab("Facilities",
                 ImageUtil.loadScaledImage("facility_icon.png", 24, 24),
