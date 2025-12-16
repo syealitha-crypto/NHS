@@ -99,7 +99,7 @@ public class MainFrame extends JFrame {
 
         tabbedPane.addTab("Referrals",
                 ImageUtil.loadScaledImage("referral_icon.png", 24, 24),
-                new JPanel(), "Manage referrals");
+                new ReferralPanel(), "Manage referrals");
 
         tabbedPane.addTab("Staff",
                 ImageUtil.loadScaledImage("staff_icon.png", 24, 24),
