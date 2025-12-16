@@ -95,7 +95,7 @@ public class MainFrame extends JFrame {
 
         tabbedPane.addTab("Prescriptions",
                 ImageUtil.loadScaledImage("prescription_icon.png", 24, 24),
-                new JPanel(), "Manage prescriptions");
+                new PrescriptionPanel(), "Manage prescriptions");
 
         tabbedPane.addTab("Referrals",
                 ImageUtil.loadScaledImage("referral_icon.png", 24, 24),
