@@ -19,6 +19,8 @@ public class PatientPanel extends JPanel {
         createSearchPanel();
         createTablePanel();
         createButtonPanel();
+        // Initialize controller - connects MVC
+        new PatientController(this);
     }
 
     private void createSearchPanel() {
