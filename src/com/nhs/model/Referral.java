@@ -18,10 +18,8 @@ public class Referral {
     private String createdDate;
     private String lastUpdated;
 
-    // Default Constructor
     public Referral() {}
 
-    // Parameterized Constructor
     public Referral(String referralId, String patientId, String referringClinicianId,
                     String referredToClinicianId, String referringFacilityId,
                     String referredToFacilityId, String referralDate, String urgencyLevel,
@@ -46,134 +44,63 @@ public class Referral {
         this.lastUpdated = lastUpdated;
     }
 
-    // Getters and Setters
-    public String getReferralId() {
-        return referralId;
-    }
+    public String getReferralId() { return referralId; }
+    public void setReferralId(String referralId) { this.referralId = referralId; }
 
-    public void setReferralId(String referralId) {
-        this.referralId = referralId;
-    }
+    public String getPatientId() { return patientId; }
+    public void setPatientId(String patientId) { this.patientId = patientId; }
 
-    public String getPatientId() {
-        return patientId;
-    }
-
-    public void setPatientId(String patientId) {
-        this.patientId = patientId;
-    }
-
-    public String getReferringClinicianId() {
-        return referringClinicianId;
-    }
-
+    public String getReferringClinicianId() { return referringClinicianId; }
     public void setReferringClinicianId(String referringClinicianId) {
         this.referringClinicianId = referringClinicianId;
     }
 
-    public String getReferredToClinicianId() {
-        return referredToClinicianId;
-    }
-
+    public String getReferredToClinicianId() { return referredToClinicianId; }
     public void setReferredToClinicianId(String referredToClinicianId) {
         this.referredToClinicianId = referredToClinicianId;
     }
 
-    public String getReferringFacilityId() {
-        return referringFacilityId;
-    }
-
+    public String getReferringFacilityId() { return referringFacilityId; }
     public void setReferringFacilityId(String referringFacilityId) {
         this.referringFacilityId = referringFacilityId;
     }
 
-    public String getReferredToFacilityId() {
-        return referredToFacilityId;
-    }
-
+    public String getReferredToFacilityId() { return referredToFacilityId; }
     public void setReferredToFacilityId(String referredToFacilityId) {
         this.referredToFacilityId = referredToFacilityId;
     }
 
-    public String getReferralDate() {
-        return referralDate;
-    }
+    public String getReferralDate() { return referralDate; }
+    public void setReferralDate(String referralDate) { this.referralDate = referralDate; }
 
-    public void setReferralDate(String referralDate) {
-        this.referralDate = referralDate;
-    }
+    public String getUrgencyLevel() { return urgencyLevel; }
+    public void setUrgencyLevel(String urgencyLevel) { this.urgencyLevel = urgencyLevel; }
 
-    public String getUrgencyLevel() {
-        return urgencyLevel;
-    }
+    public String getReferralReason() { return referralReason; }
+    public void setReferralReason(String referralReason) { this.referralReason = referralReason; }
 
-    public void setUrgencyLevel(String urgencyLevel) {
-        this.urgencyLevel = urgencyLevel;
-    }
+    public String getClinicalSummary() { return clinicalSummary; }
+    public void setClinicalSummary(String clinicalSummary) { this.clinicalSummary = clinicalSummary; }
 
-    public String getReferralReason() {
-        return referralReason;
-    }
-
-    public void setReferralReason(String referralReason) {
-        this.referralReason = referralReason;
-    }
-
-    public String getClinicalSummary() {
-        return clinicalSummary;
-    }
-
-    public void setClinicalSummary(String clinicalSummary) {
-        this.clinicalSummary = clinicalSummary;
-    }
-
-    public String getRequestedInvestigations() {
-        return requestedInvestigations;
-    }
-
+    public String getRequestedInvestigations() { return requestedInvestigations; }
     public void setRequestedInvestigations(String requestedInvestigations) {
         this.requestedInvestigations = requestedInvestigations;
     }
 
-    public String getStatus() {
-        return status;
-    }
+    public String getStatus() { return status; }
+    public void setStatus(String status) { this.status = status; }
 
-    public void setStatus(String status) {
-        this.status = status;
-    }
+    public String getAppointmentId() { return appointmentId; }
+    public void setAppointmentId(String appointmentId) { this.appointmentId = appointmentId; }
 
-    public String getAppointmentId() {
-        return appointmentId;
-    }
+    public String getNotes() { return notes; }
+    public void setNotes(String notes) { this.notes = notes; }
 
-    public void setAppointmentId(String appointmentId) {
-        this.appointmentId = appointmentId;
-    }
+    public String getCreatedDate() { return createdDate; }
+    public void setCreatedDate(String createdDate) { this.createdDate = createdDate; }
 
-    public String getNotes() {
-        return notes;
-    }
-
-    public void setNotes(String notes) {
-        this.notes = notes;
-    }
-
-    public String getCreatedDate() {
-        return createdDate;
-    }
-
-    public void setCreatedDate(String createdDate) {
-        this.createdDate = createdDate;
-    }
-
-    public String getLastUpdated() {
-        return lastUpdated;
-    }
-
-    public void setLastUpdated(String lastUpdated) {
-        this.lastUpdated = lastUpdated;
-    }
+    public String getLastUpdated() { return lastUpdated; }
+    public void setLastUpdated(String lastUpdated) { this.lastUpdated = lastUpdated; }
 
     @Override
     public String toString() {

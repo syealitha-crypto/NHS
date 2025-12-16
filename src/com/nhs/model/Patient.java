@@ -40,7 +40,6 @@ public class Patient {
         this.gpSurgeryId = gpSurgeryId;
     }
 
-    // Getters and Setters
     public String getPatientId() { return patientId; }
     public void setPatientId(String patientId) { this.patientId = patientId; }
 

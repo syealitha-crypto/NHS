@@ -15,10 +15,8 @@ public class Appointment {
     private String createdDate;
     private String lastModified;
 
-    // Default Constructor
     public Appointment() {}
 
-    // Parameterized Constructor
     public Appointment(String appointmentId, String patientId, String clinicianId,
                        String facilityId, String appointmentDate, String appointmentTime,
                        String durationMinutes, String appointmentType, String status,
@@ -39,110 +37,44 @@ public class Appointment {
         this.lastModified = lastModified;
     }
 
-    // Getters and Setters
-    public String getAppointmentId() {
-        return appointmentId;
-    }
+    public String getAppointmentId() { return appointmentId; }
+    public void setAppointmentId(String appointmentId) { this.appointmentId = appointmentId; }
 
-    public void setAppointmentId(String appointmentId) {
-        this.appointmentId = appointmentId;
-    }
+    public String getPatientId() { return patientId; }
+    public void setPatientId(String patientId) { this.patientId = patientId; }
 
-    public String getPatientId() {
-        return patientId;
-    }
+    public String getClinicianId() { return clinicianId; }
+    public void setClinicianId(String clinicianId) { this.clinicianId = clinicianId; }
 
-    public void setPatientId(String patientId) {
-        this.patientId = patientId;
-    }
+    public String getFacilityId() { return facilityId; }
+    public void setFacilityId(String facilityId) { this.facilityId = facilityId; }
 
-    public String getClinicianId() {
-        return clinicianId;
-    }
+    public String getAppointmentDate() { return appointmentDate; }
+    public void setAppointmentDate(String appointmentDate) { this.appointmentDate = appointmentDate; }
 
-    public void setClinicianId(String clinicianId) {
-        this.clinicianId = clinicianId;
-    }
+    public String getAppointmentTime() { return appointmentTime; }
+    public void setAppointmentTime(String appointmentTime) { this.appointmentTime = appointmentTime; }
 
-    public String getFacilityId() {
-        return facilityId;
-    }
+    public String getDurationMinutes() { return durationMinutes; }
+    public void setDurationMinutes(String durationMinutes) { this.durationMinutes = durationMinutes; }
 
-    public void setFacilityId(String facilityId) {
-        this.facilityId = facilityId;
-    }
+    public String getAppointmentType() { return appointmentType; }
+    public void setAppointmentType(String appointmentType) { this.appointmentType = appointmentType; }
 
-    public String getAppointmentDate() {
-        return appointmentDate;
-    }
+    public String getStatus() { return status; }
+    public void setStatus(String status) { this.status = status; }
 
-    public void setAppointmentDate(String appointmentDate) {
-        this.appointmentDate = appointmentDate;
-    }
+    public String getReasonForVisit() { return reasonForVisit; }
+    public void setReasonForVisit(String reasonForVisit) { this.reasonForVisit = reasonForVisit; }
 
-    public String getAppointmentTime() {
-        return appointmentTime;
-    }
+    public String getNotes() { return notes; }
+    public void setNotes(String notes) { this.notes = notes; }
 
-    public void setAppointmentTime(String appointmentTime) {
-        this.appointmentTime = appointmentTime;
-    }
+    public String getCreatedDate() { return createdDate; }
+    public void setCreatedDate(String createdDate) { this.createdDate = createdDate; }
 
-    public String getDurationMinutes() {
-        return durationMinutes;
-    }
-
-    public void setDurationMinutes(String durationMinutes) {
-        this.durationMinutes = durationMinutes;
-    }
-
-    public String getAppointmentType() {
-        return appointmentType;
-    }
-
-    public void setAppointmentType(String appointmentType) {
-        this.appointmentType = appointmentType;
-    }
-
-    public String getStatus() {
-        return status;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
-    }
-
-    public String getReasonForVisit() {
-        return reasonForVisit;
-    }
-
-    public void setReasonForVisit(String reasonForVisit) {
-        this.reasonForVisit = reasonForVisit;
-    }
-
-    public String getNotes() {
-        return notes;
-    }
-
-    public void setNotes(String notes) {
-        this.notes = notes;
-    }
-
-    public String getCreatedDate() {
-        return createdDate;
-    }
-
-    public void setCreatedDate(String createdDate) {
-        this.createdDate = createdDate;
-    }
-
-    public String getLastModified() {
-        return lastModified;
-    }
-
-    public void setLastModified(String lastModified) {
-        this.lastModified = lastModified;
-    }
+    public String getLastModified() { return lastModified; }
+    public void setLastModified(String lastModified) { this.lastModified = lastModified; }
 
     @Override
     public String toString() {

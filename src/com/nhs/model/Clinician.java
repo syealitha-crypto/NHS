@@ -34,7 +34,6 @@ public class Clinician {
         this.startDate = startDate;
     }
 
-    // Getters and Setters
     public String getClinicianId() { return clinicianId; }
     public void setClinicianId(String clinicianId) { this.clinicianId = clinicianId; }
 

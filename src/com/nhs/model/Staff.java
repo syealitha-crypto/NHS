@@ -14,10 +14,8 @@ public class Staff {
     private String lineManager;
     private String accessLevel;
 
-    // Default Constructor
     public Staff() {}
 
-    // Parameterized Constructor
     public Staff(String staffId, String firstName, String lastName, String role,
                  String department, String facilityId, String phoneNumber,
                  String email, String employmentStatus, String startDate,
@@ -36,102 +34,43 @@ public class Staff {
         this.accessLevel = accessLevel;
     }
 
-    // Getters and Setters
-    public String getStaffId() {
-        return staffId;
-    }
+    public String getStaffId() { return staffId; }
+    public void setStaffId(String staffId) { this.staffId = staffId; }
 
-    public void setStaffId(String staffId) {
-        this.staffId = staffId;
-    }
+    public String getFirstName() { return firstName; }
+    public void setFirstName(String firstName) { this.firstName = firstName; }
 
-    public String getFirstName() {
-        return firstName;
-    }
+    public String getLastName() { return lastName; }
+    public void setLastName(String lastName) { this.lastName = lastName; }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
+    public String getRole() { return role; }
+    public void setRole(String role) { this.role = role; }
 
-    public String getLastName() {
-        return lastName;
-    }
+    public String getDepartment() { return department; }
+    public void setDepartment(String department) { this.department = department; }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
+    public String getFacilityId() { return facilityId; }
+    public void setFacilityId(String facilityId) { this.facilityId = facilityId; }
 
-    public String getRole() {
-        return role;
-    }
+    public String getPhoneNumber() { return phoneNumber; }
+    public void setPhoneNumber(String phoneNumber) { this.phoneNumber = phoneNumber; }
 
-    public void setRole(String role) {
-        this.role = role;
-    }
+    public String getEmail() { return email; }
+    public void setEmail(String email) { this.email = email; }
 
-    public String getDepartment() {
-        return department;
-    }
-
-    public void setDepartment(String department) {
-        this.department = department;
-    }
-
-    public String getFacilityId() {
-        return facilityId;
-    }
-
-    public void setFacilityId(String facilityId) {
-        this.facilityId = facilityId;
-    }
-
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getEmploymentStatus() {
-        return employmentStatus;
-    }
-
+    public String getEmploymentStatus() { return employmentStatus; }
     public void setEmploymentStatus(String employmentStatus) {
         this.employmentStatus = employmentStatus;
     }
 
-    public String getStartDate() {
-        return startDate;
-    }
+    public String getStartDate() { return startDate; }
+    public void setStartDate(String startDate) { this.startDate = startDate; }
 
-    public void setStartDate(String startDate) {
-        this.startDate = startDate;
-    }
+    public String getLineManager() { return lineManager; }
+    public void setLineManager(String lineManager) { this.lineManager = lineManager; }
 
-    public String getLineManager() {
-        return lineManager;
-    }
-
-    public void setLineManager(String lineManager) {
-        this.lineManager = lineManager;
-    }
-
-    public String getAccessLevel() {
-        return accessLevel;
-    }
-
-    public void setAccessLevel(String accessLevel) {
-        this.accessLevel = accessLevel;
-    }
+    public String getAccessLevel() { return accessLevel; }
+    public void setAccessLevel(String accessLevel) { this.accessLevel = accessLevel; }
 
     public String getFullName() {
         return firstName + " " + lastName;

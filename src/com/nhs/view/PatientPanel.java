@@ -1,5 +1,6 @@
 package com.nhs.view;
 
+import com.nhs.controller.PatientController;
 import com.nhs.util.ImageUtil;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -19,6 +20,7 @@ public class PatientPanel extends JPanel {
         createSearchPanel();
         createTablePanel();
         createButtonPanel();
+
         // Initialize controller - connects MVC
         new PatientController(this);
     }
@@ -35,6 +37,10 @@ public class PatientPanel extends JPanel {
         searchField.setFont(new Font("Arial", Font.PLAIN, 14));
 
         searchButton = new JButton("Search", ImageUtil.loadScaledImage("search_icon.png", 20, 20));
+        searchButton.setFont(new Font("Arial", Font.BOLD, 12));
+        searchButton.setBackground(new Color(33, 150, 243));
+        searchButton.setForeground(Color.WHITE);
+        searchButton.setFocusPainted(false);
 
         searchPanel.add(searchIcon);
         searchPanel.add(searchLabel);

@@ -17,10 +17,8 @@ public class Prescription {
     private String issueDate;
     private String collectionDate;
 
-    // Default Constructor
     public Prescription() {}
 
-    // Parameterized Constructor
     public Prescription(String prescriptionId, String patientId, String clinicianId,
                         String appointmentId, String prescriptionDate, String medicationName,
                         String dosage, String frequency, String durationDays,
@@ -43,126 +41,50 @@ public class Prescription {
         this.collectionDate = collectionDate;
     }
 
-    // Getters and Setters
-    public String getPrescriptionId() {
-        return prescriptionId;
-    }
+    public String getPrescriptionId() { return prescriptionId; }
+    public void setPrescriptionId(String prescriptionId) { this.prescriptionId = prescriptionId; }
 
-    public void setPrescriptionId(String prescriptionId) {
-        this.prescriptionId = prescriptionId;
-    }
+    public String getPatientId() { return patientId; }
+    public void setPatientId(String patientId) { this.patientId = patientId; }
 
-    public String getPatientId() {
-        return patientId;
-    }
+    public String getClinicianId() { return clinicianId; }
+    public void setClinicianId(String clinicianId) { this.clinicianId = clinicianId; }
 
-    public void setPatientId(String patientId) {
-        this.patientId = patientId;
-    }
+    public String getAppointmentId() { return appointmentId; }
+    public void setAppointmentId(String appointmentId) { this.appointmentId = appointmentId; }
 
-    public String getClinicianId() {
-        return clinicianId;
-    }
+    public String getPrescriptionDate() { return prescriptionDate; }
+    public void setPrescriptionDate(String prescriptionDate) { this.prescriptionDate = prescriptionDate; }
 
-    public void setClinicianId(String clinicianId) {
-        this.clinicianId = clinicianId;
-    }
+    public String getMedicationName() { return medicationName; }
+    public void setMedicationName(String medicationName) { this.medicationName = medicationName; }
 
-    public String getAppointmentId() {
-        return appointmentId;
-    }
+    public String getDosage() { return dosage; }
+    public void setDosage(String dosage) { this.dosage = dosage; }
 
-    public void setAppointmentId(String appointmentId) {
-        this.appointmentId = appointmentId;
-    }
+    public String getFrequency() { return frequency; }
+    public void setFrequency(String frequency) { this.frequency = frequency; }
 
-    public String getPrescriptionDate() {
-        return prescriptionDate;
-    }
+    public String getDurationDays() { return durationDays; }
+    public void setDurationDays(String durationDays) { this.durationDays = durationDays; }
 
-    public void setPrescriptionDate(String prescriptionDate) {
-        this.prescriptionDate = prescriptionDate;
-    }
+    public String getQuantity() { return quantity; }
+    public void setQuantity(String quantity) { this.quantity = quantity; }
 
-    public String getMedicationName() {
-        return medicationName;
-    }
+    public String getInstructions() { return instructions; }
+    public void setInstructions(String instructions) { this.instructions = instructions; }
 
-    public void setMedicationName(String medicationName) {
-        this.medicationName = medicationName;
-    }
+    public String getPharmacyName() { return pharmacyName; }
+    public void setPharmacyName(String pharmacyName) { this.pharmacyName = pharmacyName; }
 
-    public String getDosage() {
-        return dosage;
-    }
+    public String getStatus() { return status; }
+    public void setStatus(String status) { this.status = status; }
 
-    public void setDosage(String dosage) {
-        this.dosage = dosage;
-    }
+    public String getIssueDate() { return issueDate; }
+    public void setIssueDate(String issueDate) { this.issueDate = issueDate; }
 
-    public String getFrequency() {
-        return frequency;
-    }
-
-    public void setFrequency(String frequency) {
-        this.frequency = frequency;
-    }
-
-    public String getDurationDays() {
-        return durationDays;
-    }
-
-    public void setDurationDays(String durationDays) {
-        this.durationDays = durationDays;
-    }
-
-    public String getQuantity() {
-        return quantity;
-    }
-
-    public void setQuantity(String quantity) {
-        this.quantity = quantity;
-    }
-
-    public String getInstructions() {
-        return instructions;
-    }
-
-    public void setInstructions(String instructions) {
-        this.instructions = instructions;
-    }
-
-    public String getPharmacyName() {
-        return pharmacyName;
-    }
-
-    public void setPharmacyName(String pharmacyName) {
-        this.pharmacyName = pharmacyName;
-    }
-
-    public String getStatus() {
-        return status;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
-    }
-
-    public String getIssueDate() {
-        return issueDate;
-    }
-
-    public void setIssueDate(String issueDate) {
-        this.issueDate = issueDate;
-    }
-
-    public String getCollectionDate() {
-        return collectionDate;
-    }
-
-    public void setCollectionDate(String collectionDate) {
-        this.collectionDate = collectionDate;
-    }
+    public String getCollectionDate() { return collectionDate; }
+    public void setCollectionDate(String collectionDate) { this.collectionDate = collectionDate; }
 
     @Override
     public String toString() {
