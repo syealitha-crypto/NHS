@@ -39,7 +39,7 @@ public class ClinicianPanel extends JPanel {
         searchButton = new JButton("Search", ImageUtil.loadScaledImage("search_icon.png", 20, 20));
         searchButton.setFont(new Font("Arial", Font.BOLD, 12));
         searchButton.setBackground(new Color(33, 150, 243));
-        searchButton.setForeground(Color.WHITE);
+        searchButton.setForeground(Color.BLUE);
         searchButton.setFocusPainted(false);
 
         searchPanel.add(searchIcon);
@@ -68,7 +68,7 @@ public class ClinicianPanel extends JPanel {
         clinicianTable.setRowHeight(25);
         clinicianTable.getTableHeader().setFont(new Font("Arial", Font.BOLD, 12));
         clinicianTable.getTableHeader().setBackground(new Color(0, 94, 184));
-        clinicianTable.getTableHeader().setForeground(Color.WHITE);
+        clinicianTable.getTableHeader().setForeground(Color.BLACK);
         clinicianTable.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 
         JScrollPane scrollPane = new JScrollPane(clinicianTable);
@@ -95,7 +95,7 @@ public class ClinicianPanel extends JPanel {
     private JButton createButton(String text, String icon, Color bgColor) {
         JButton button = new JButton(text, ImageUtil.loadScaledImage(icon, 20, 20));
         button.setBackground(bgColor);
-        button.setForeground(Color.WHITE);
+        button.setForeground(Color.BLACK);
         button.setFont(new Font("Arial", Font.BOLD, 14));
         button.setPreferredSize(new Dimension(180, 40));
         button.setFocusPainted(false);

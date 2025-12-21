@@ -5,7 +5,7 @@ ST003,Carol,Smith,Medical Secretary,Administration,S001,07111333446,c.smith@birm
 ST004,Peter,Johnson,Healthcare Assistant,Clinical Support,S001,07111333447,p.johnson@birminghamgp.nhs.uk,Full-time,2021-01-10,Sister Mary Kelly,Standard
 ST005,Sandra,Brown,Practice Manager,Administration,S002,07111333448,s.brown@solihullgp.nhs.uk,Full-time,2017-05-12,Dr. Mark Davies,Manager
 ST006,Kevin,Davis,Receptionist,Front Desk,S002,07111333449,k.davis@solihullgp.nhs.uk,Full-time,2019-09-03,Sandra Brown,Basic
-ST007,Lisa,Miller,Medical Secretary,Administration,S002,07111333450,l.miller@solihullgp.nhs.uk,Part-time,2020-02-18,Sandra Brown,Standard
+ST007,Updated firstName,Miller,Updated role,Updated department,S002,07111333450,l.miller@solihullgp.nhs.uk,Part-time,2020-02-18,Sandra Brown,Standard
 ST008,Margaret,Taylor,Practice Manager,Administration,S003,07111333451,m.taylor@suttongp.nhs.uk,Full-time,2018-08-25,Dr. Susan Clarke,Manager
 ST009,Robert,Anderson,Receptionist,Front Desk,S003,07111333452,r.anderson@suttongp.nhs.uk,Full-time,2021-04-07,Margaret Taylor,Basic
 ST010,Helen,White,Healthcare Assistant,Clinical Support,S003,07111333453,h.white@suttongp.nhs.uk,Full-time,2020-10-14,Dr. Susan Clarke,Standard
