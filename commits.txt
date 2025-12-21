@@ -1,0 +1,125 @@
+commit 0394ba3e6453e7b757c270260d1d4b2c6b928e20
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Sun Dec 21 18:44:42 2025 +0530
+
+    Made some changes for the Buttons and Added Add/Edit Functionalities
+
+commit 760a8ffe2d6a51597abfb4263f5f0a17f929bdc7
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Tue Dec 16 20:55:29 2025 +0530
+
+    Add Staff module with panel and controller - All 7 modules complete
+
+commit 096be3370f5740be54e8003c0262e6eb49dd07fc
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Tue Dec 16 20:52:48 2025 +0530
+
+    Add Referral module with panel, controller, and Singleton integration
+
+commit 5e3fa947f171838c93b565e680c46e6d96bf639d
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Tue Dec 16 20:51:16 2025 +0530
+
+    Add Prescription module with panel and controller
+
+commit 8aae13682a8453c3c539df4f01dec97c879965dd
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Tue Dec 16 20:49:04 2025 +0530
+
+    Add Appointment module with panel and controller
+
+commit f72aa07167a80b0d2c2024d84b1d0a6413267819
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Tue Dec 16 20:41:51 2025 +0530
+
+    Add Facility module with panel and controller
+
+commit b339c73571b20f64d6ba9d4c67aac4fa09d31d3f
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Tue Dec 16 20:39:42 2025 +0530
+
+    Add Clinician module with panel and controller
+
+commit 3156ad26f8dbc85c010e69697e6d84844f65ad61
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Tue Dec 16 19:34:27 2025 +0530
+
+    Fixed Errors in Models
+
+commit 5bd3eefc1b4cf7493d166a72ce325500212f547b
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Tue Dec 16 19:24:05 2025 +0530
+
+    Connect PatientController to PatientPanel - MVC integration complete
+
+commit 44192a0b152ffdaf46121b07ecf4c43549557cc6
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Tue Dec 16 19:14:32 2025 +0530
+
+    Add Main class to launch MVC application with Singleton
+
+commit b4e3bce91afeefd7b996a24c661713f7671f2fbe
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Tue Dec 16 19:10:39 2025 +0530
+
+    Add PatientController with CSV loading, search, and delete functionality
+
+commit 66389db2e6eb90f8ec493cc598e16e9baf04eb25
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Tue Dec 16 19:08:54 2025 +0530
+
+    Add PatientPanel with search, table, and CRUD buttons
+
+commit e9593170e222ed7b8e9efba47d58d9b36c54edb4
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Tue Dec 16 19:07:55 2025 +0530
+
+    Add MainFrame with header, menu, tabs, and footer
+
+commit 16a84684ea2e4c7a9595bb078b74fab8dd603a8d
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Tue Dec 16 19:06:23 2025 +0530
+
+    Implement Singleton pattern for ReferralManager with email generation
+
+commit 82118e2e829f7aa612a520c627966e9750d632e1
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Tue Dec 16 19:03:46 2025 +0530
+
+    Add Facility, Appointment, Prescription, Referral, and Staff model classes with complete getters/setters
+
+commit 2a296e2e8913c6779cac4f3061891d6ca5b00343
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Sun Dec 14 11:57:05 2025 +0530
+
+    Add Clinician model class
+
+commit 0a89ec7934b8221a0ca7b0c53d682d76abdda601
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Sun Dec 14 11:56:15 2025 +0530
+
+    Add Patient model class with 14 attributes
+
+commit efb5734e8dc725ba9bb88f9ecd7387dbfc0cb8cb
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Sun Dec 14 11:54:22 2025 +0530
+
+    Add CSVWriter utility for saving CSV data
+
+commit 16ae16fe18e52b7e2581a4b21f1e26374b197678
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Sun Dec 14 11:53:04 2025 +0530
+
+    Add CSVReader utility for loading CSV data with N/A handling
+
+commit 8a411b13284d57d0b2444dd29f70f70917db6666
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Sun Dec 14 11:48:58 2025 +0530
+
+    Add ImageUtil with placeholder image support
+
+commit dddf3a032d733ca3d6fa189acfcec0916065a550
+Author: syealitha-crypto <syealitha@gmail.com>
+Date:   Sun Dec 14 11:08:41 2025 +0530
+
+    Setup Initial Files

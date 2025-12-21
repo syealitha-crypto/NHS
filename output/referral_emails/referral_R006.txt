@@ -1,0 +1,19 @@
+═══════════════════════════════════════
+      NHS REFERRAL NOTIFICATION
+═══════════════════════════════════════
+
+Referral ID: R006
+Date: 2025-09-22
+Urgency: Urgent
+Status: New
+
+Patient ID: P004
+Referring Clinician: C002
+Referred To: C005
+
+Reason: Chest pain episodes
+Summary: 37-year-old female with recent onset chest pain and family history of cardiac disease. ECG shows minor T-wave changes.
+Investigations: Exercise Stress Test|Cardiac enzymes
+
+Generated: 21/12/2025 18:38
+═══════════════════════════════════════
